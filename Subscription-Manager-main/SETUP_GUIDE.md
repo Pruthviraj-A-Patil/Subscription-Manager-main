@@ -86,7 +86,7 @@ NODE_ENV=development
 
 **For MongoDB Atlas**, replace the URI with your connection string:
 ```env
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/subscription-manager?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://<your-username>:<your-password>@cluster.mongodb.net/subscription-manager?retryWrites=true&w=majority
 ```
 
 #### Start the backend server:
